@@ -1,0 +1,14 @@
+{
+      "name": "What's the weather?",
+      "version": "0.0.1",
+      "manifest_version": 2,
+      "browser_action": {
+         "default_popup": "index.html",
+         "default_icon": "./weather-app-icons/Weather Icons/extension_logo.png"
+      },
+      "icons": {
+         "128": "./weather-app-icons/Weather Icons/clear.svg",
+         "64": "./weather-app-icons/Weather Icons/extension_logo.png"
+      },
+      "permissions": ["activeTab"]
+}
